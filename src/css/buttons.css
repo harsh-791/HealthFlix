@@ -1,0 +1,104 @@
+/* Common Button Styles */
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* .button-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  } */
+  /* .reply-section button {
+    padding: 5px 10px;
+    background: red;
+  } */
+  .buttons-section{
+    padding: 0;
+    display: flex;
+    gap: 10px;
+
+  }
+  .buttons-section button{
+    padding: 5px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  .button-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+ 
+  
+  /* Specific Styles for Edit and Reply Buttons */
+  .edit-button {
+    background-color: #28a745;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .reply-button {
+    background-color: #17a2b8;
+  }
+  
+  .reply-button:hover {
+    background-color: #138496;
+  }
+  
+  /* Delete Icon Positioning */
+  .delete-icon-container {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .delete-icon {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .delete-icon:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+  }
+  
+  /* Specific Style Adjustments for Small Delete Icon */
+  .delete-icon-container {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .delete-icon {
+    font-size: 0.75rem;
+    padding: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .delete-icon:hover {
+    background-color: #e0e0e0;
+  }
+  
