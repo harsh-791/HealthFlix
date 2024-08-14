@@ -9,7 +9,6 @@ import '../css/buttons.css';
 import '../css/comments.css';
 import '../css/replies.css';
 
-// Custom function to format date
 const formatDate = (dateString) => {
     const date = new Date(dateString);
 

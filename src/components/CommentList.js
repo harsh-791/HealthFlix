@@ -11,7 +11,7 @@ import '../css/replies.css';
 // Function to parse date strings and handle potential parsing errors
 const parseDate = (dateString) => {
     const parsedDate = new Date(dateString);
-    return isNaN(parsedDate) ? new Date() : parsedDate; // Fallback to current date if parsing fails
+    return isNaN(parsedDate) ? new Date() : parsedDate;
 };
 
 // Function to format date to '2nd Aug 2024'
